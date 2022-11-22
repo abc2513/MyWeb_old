@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8"/>
+		<title>简介</title>
+        <script type="text/javascript" src="../vue.js"></script>
+        <link rel="stylesheet" type="text/css" href="../style.css"> 
+    </head>
+    <body>
+        <div id="root">
+            <top_menu></top_menu>
+            <left_menu></left_menu>
+            <div class="article">
+                <div class="wide_picture_div"><img src="./resource/实验数据处理网页1.jpg" alt="实验数据处理网页1.jpg" class="wide_picture"><br>单变量统计计算</div>
+                <h2>实验数据处理网页</h2>
+                <p><running></running></p>
+                <h3>简介</h3>
+                <p>该网页为笔者在大二秋季学期开发。可用于对大学物理实验课上的数据进行简单处理，能对一列数据进行统计计算，输出平均值、平均值不确定度；对两列数据进行回归计算，输出k、b、r</p>
+                <h3>访问</h3>
+                <p>该网页部署在GitHubPage上，可点击<a href="https://abc2513.github.io/LazyData/LazyDataforWeb.html">https://abc2513.github.io/LazyData/LazyDataforWeb.html</a>进行访问</p>
+                <div class="wide_picture_div"><img src="./resource/实验数据处理网页2.jpg" alt="实验数据处理网页2.jpg" class="wide_picture"><br>双变量回归计算</div>
+                <h3>用例</h3>
+                <p>选择单变量/双变量功能,输入数据条数</p>
+                <p>数据输入：在数据输入框内填入数据，点击换行输入下一个数据。</p>
+                <p>单变量统计计算：进行单变量统计计算，输出平均值、平均值不确定度</p>
+                <p>双变量回归计算：进行双变量回归计算，输出k,b,r。</p>
+                <h3>实现</h3>
+                <p>在html编写所有的结构，使用Vue双向数据绑定实现显示内容和逻辑的关联，并计算相关的数据</p>
+            </div>
+
+        </div>
+        <script  type="text/javascript" src="./main.js"></script>
+    </body>
+</html>
