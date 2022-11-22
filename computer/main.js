@@ -10,7 +10,7 @@ const left_menu = Vue.extend({
     data(){
         return {
             li_text:['个人简介','个人网页(本网页)','智能交通系统','Unity2D游戏','实验数据处理应用','实验数据处理网页','社团网站项目'],
-            li_href:['./简介.html','./个人网页.html','./交通系统.html','./Unity2D游戏.html','./实验数据处理应用.html','./实验数据处理网页.html','社团网站.html'],
+            li_href:['./简介.html','./个人网页.html','./交通系统.html','./Unity2D游戏.html','./实验数据处理应用.html','./实验数据处理网页.html','./社团网站.html'],
         }
     },
 })
