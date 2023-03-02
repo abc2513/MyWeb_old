@@ -9,8 +9,8 @@ const left_menu = Vue.extend({
     `,
     data(){
         return {
-            li_text:['个人简介','个人网页(本网页)','智能交通系统','Unity2D游戏','实验数据处理应用','实验数据处理网页','社团网站项目'],
-            li_href:['./简介.html','./个人网页.html','./交通系统.html','./Unity2D游戏.html','./实验数据处理应用.html','./实验数据处理网页.html','./社团网站.html'],
+            li_text:['个人简介','个人网页(本网页)','智能交通系统△','Unity2D游戏△','C学生成绩管理系统','.net图书管理系统','实验数据处理App','实验数据处理网页','游戏开发社团网站△','java多阶拼图小游戏'],
+            li_href:['./简介.html','./个人网页.html','./交通系统.html','./Unity2D游戏.html','./c学生成绩管理系统.html','./图书管理系统.html','./实验数据处理应用.html','./实验数据处理网页.html','./社团网站.html','./java多阶拼图小游戏.html'],
         }
     },
 })
@@ -26,8 +26,8 @@ const top_menu = Vue.extend({
     `,
     data(){
         return {
-            li_text:['/','/','/',],
-            li_href:['../computer/简介.html','../computer/简介.html','../computer/简介.html',],
+            li_text:['作品集','/','/',],
+            li_href:['../computer/简介.html','#','#',],
         }
     }
 })
